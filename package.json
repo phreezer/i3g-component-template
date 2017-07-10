@@ -7,9 +7,14 @@
   "style": "./dist/scss/i3g-component.scss",
   "sass": "./dist/scss/i3g-component.scss",
   "author": {
-    "name": "Heath Showalter",
-    "url": "http://heathshowalter.com/"
+	"name": "i3Global",
+	"url": "http://i-3global.com/"
   },
+	"contributors": [{
+		"name": "Heath Showalter",
+		"email": "heath.showalter@i-3global.com",
+		"url": "heathshowalter.com"
+	}],
   "repository": {
     "type": "git",
     "url": "https://github.com/phreezer/i3g-component"
@@ -34,5 +39,6 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT"
+	"private": true,
+	"license": "UNLICENSED"
 }
