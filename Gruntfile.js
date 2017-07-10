@@ -100,4 +100,6 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'sass', 'cssmin', 'copy:sass', 'copy:images' , 'copy:fonts']);
 
+	grunt.registerTask('serve', ['watch']);
+
 };
