@@ -7,7 +7,7 @@ module.exports = function (grunt) {
 		jsFileName: 'jquery.<%= pkg.name %>',
 		cssFileName: 'i3g.component',
 		banner: '/*!\n' +
-			'* <%= pkg.prettyName %> - v<%= pkg.version %>\n' +
+			'* <%= pkg.name %> - v<%= pkg.version %>\n' +
 			'* Homepage: <%= pkg.homepage %>\n' +
 			'* Author: <%= pkg.author.name %>\n' +
 			'* Author URL: <%= pkg.author.url %>\n*/\n',
@@ -21,15 +21,7 @@ module.exports = function (grunt) {
 		  'src/js/app.js'
 		],
 				dest: 'dist/js/<%= jsFileName %>.js'
-			}/*,
-			css: {
-				src: [
-		  'src/css/main.scss',
-		  'src/css/variables.scss',
-		  'src/css/core.scss'
-		],
-				dest: 'dist/scss/<%= cssFileName %>.scss'
-			}*/
+			}
 		},
 		uglify: {
 			options: {
